@@ -1,5 +1,5 @@
 # MI2S Dart Language Study Group
-[![CI](https://github.com/8igMac/dart_practice/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/8igMac/dart_practice/actions)
+[![CI](https://github.com/8igMac/dart_practice/actions/workflows/ci.yml/badge.svg)](https://github.com/8igMac/dart_practice/actions/workflows/ci.yml)
 
 Code collections for MI2S Dart lang study group.
 
