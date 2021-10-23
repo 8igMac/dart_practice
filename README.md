@@ -61,6 +61,6 @@ void main() {
   - Cheatsheet: [Language cheatsheet](https://dart.dev/codelabs/dart-cheatsheet).
 - Important concept
   - [Iterable](https://dart.dev/codelabs/iterables)
-  - [Null safty](https://dart.dev/codelabs/null-safety)
+  - [Null safety](https://dart.dev/codelabs/null-safety)
   - [Async programming](https://dart.dev/codelabs/async-await)
 - [Core library tour](https://dart.dev/guides/libraries/library-tour)
