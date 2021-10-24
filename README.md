@@ -50,6 +50,10 @@ void main() {
 }
 ```
 
+## Git style
+- Squash all your commits before push.
+- Commit message style: `[FEAT] FEATURE_NAME by YOUR_NAME.`, for example: `[FEAT] Quick sort by Eric.`
+
 ## Reading resources
 - About the language
   - Quick overview: [dart language samples](https://dart.dev/samples).
