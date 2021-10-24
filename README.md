@@ -50,10 +50,6 @@ void main() {
 }
 ```
 
-## Git style
-- Squash your commits before PR.
-- Commit message style: `[YOUR_NAME] PROBLEM_NAME`.
-
 ## Reading resources
 - About the language
   - Quick overview: [dart language samples](https://dart.dev/samples).
