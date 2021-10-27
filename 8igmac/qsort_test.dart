@@ -4,8 +4,7 @@ import 'dart:math';
 
 bool isSorted(List<int> list) {
   for (var i = 0; i < list.length - 1; i++)
-    if (list[i] > list[i+1]) 
-      return false;
+    if (list[i] > list[i + 1]) return false;
   return true;
 }
 
@@ -24,8 +23,8 @@ void main() {
     test('Random numbers.', () {
       const seed = 4;
       const listSize = 100;
-      const maxNum = 100; 
-      var rng = Random(seed); 
+      const maxNum = 100;
+      var rng = Random(seed);
       var randomNumbers = List.generate(listSize, (_) => rng.nextInt(maxNum));
       expect(isSorted(qsort(randomNumbers)), true);
     });
