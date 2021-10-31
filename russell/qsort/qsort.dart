@@ -40,24 +40,9 @@ List<int> qsort(List<int> nums_lst) {
   bool is_sort;
   is_sort = check_sort(nums_lst);
   if (is_sort) {
-    print("$nums_lst already sort");
     return nums_lst;
   } else {
     List<int> sort_lst = qsort_rec(nums_lst, 0, nums_lst.length - 1);
     return sort_lst;
   }
-}
-
-void main() {
-  final seed = 5;
-  final size = 50;
-  final max_num = 200;
-  var rng = new Random();
-  var nums_lst = new List.generate(size, (_) => rng.nextInt(max_num));
-  nums_lst = [4, 4, 3];
-  print(nums_lst);
-  List<int> sort_lst = qsort(nums_lst);
-  print(sort_lst);
-  bool is_sort = check_sort(sort_lst);
-  print(is_sort);
 }
