@@ -1,18 +1,18 @@
 import 'package:test/test.dart';
 
 class Person {
-	String name;
-	int age;
-	
-	Person.allargs(this.name, this.age);
-	
-	bool isMiddleAge() {
-		return age >= 40;
-	}
-	
-	void tenYearsLater() {
-		age += 10;
-	}
+  String name;
+  int age;
+
+  Person.allargs(this.name, this.age);
+
+  bool isMiddleAge() {
+    return age >= 40;
+  }
+
+  void tenYearsLater() {
+    age += 10;
+  }
 }
 
 void main() {
